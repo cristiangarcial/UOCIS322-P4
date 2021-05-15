@@ -6,6 +6,9 @@ and https://rusa.org/pages/rulesForRiders
 """
 import arrow
 
+MIN_SPEED = [(200, 15), (400, 15), (600, 15), (1000, 11.428), (1300, 13.333)]
+MAX_SPEED = [(200, 34), (400, 32), (600, 30), (1000, 28), (1300, 26)]
+
 
 #  You MUST provide the following two functions
 #  with these signatures. You must keep
